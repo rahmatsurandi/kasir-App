@@ -1,0 +1,25 @@
+body {
+  width: auto;
+  height: auto;
+  background-color: rgb(36, 4, 68);
+  font-weight: 400;
+  color: rgb(181, 130, 233);
+  font-family: "Lobster", cursive;
+  font-size: larger;
+}
+.category-aktif {
+  background-color: rgb(25, 4, 59);
+  color: white;
+}
+@media only screen and (max-width: 1000px) {
+  .hasil {
+    height: 650px;
+  }
+  .menu {
+    height: 800px;
+  }
+}
+
+.overflow-auto::-webkit-scrollbar {
+  display: none;
+}
